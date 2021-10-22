@@ -8,7 +8,7 @@
 
 ### Introduction
 
-For this project, you will work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
+For this project, I worked with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
 
 ![Trained Agent][image1]
 
@@ -51,12 +51,12 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 
 #### Should also work
-    The whole code should also work with the single agent environment. Just download the version you can run on your system from below, extract it to the project folder, rename the folder to `"Reacher_single"` and in case you are not running Windows, adjust in `main_train` and `main_test` the file endings where the `UnityEnvironment` is instantiated. The `USE_COLLECTIVE_TRAINING` flag must be set to `False` in both `main_train` and `main_test`.
-    - **_One (1) Agent_**
-        - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
-        - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
-        - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
-        - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+The whole code should also work with the single agent environment. Just download the version you can run on your system from below, extract it to the project folder, rename the folder to `"Reacher_single"` and in case you are not running Windows, adjust in `main_train` and `main_test` the file endings where the `UnityEnvironment` is instantiated. The `USE_COLLECTIVE_TRAINING` flag must be set to `False` in both `main_train` and `main_test`.
+- **_One (1) Agent_**
+    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
 
 ### Instructions
 
